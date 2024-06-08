@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ES2021",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "rootDirs": ["src", "tests"],
+    "baseUrl": "src",
+    "types": ["node"],
+    "paths": {}
+  },
+  "include": ["src", "aws"],
+  "exclude": ["node_modules", "cdk.out"]
+}
